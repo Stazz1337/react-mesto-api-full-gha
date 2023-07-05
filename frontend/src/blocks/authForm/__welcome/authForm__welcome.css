@@ -1,0 +1,14 @@
+.authForm__welcome {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  margin: 60px 0 50px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .authForm__welcome {
+    align-items: center;
+    margin: 40px 0;
+  }
+}

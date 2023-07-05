@@ -1,0 +1,12 @@
+.register__signin-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.register__signin-link:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}

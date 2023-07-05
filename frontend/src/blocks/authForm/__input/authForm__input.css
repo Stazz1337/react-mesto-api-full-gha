@@ -1,0 +1,21 @@
+.authForm__input {
+  color: #cccccc;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  .authForm__input {
+    min-width: 260px;
+  }
+}
+
+.authForm__input:last-of-type {
+  margin: 0;
+}

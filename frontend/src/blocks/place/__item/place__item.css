@@ -1,0 +1,6 @@
+.place__item {
+  max-width: 282px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}

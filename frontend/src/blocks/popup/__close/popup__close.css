@@ -1,0 +1,21 @@
+.popup__close {
+  background-image: url(../../../images/form-Close-Icon.svg);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -32px;
+  right: -32px;
+  display: flex;
+  padding: 0;
+  background-color: unset;
+  border: none;
+}
+
+@media (max-width:640px) {
+  .popup__close {
+    width: 20px;
+    height: 20px;
+    right: 0px;
+    background-image: url(../../../images/form-Close-Icon-lowres.svg);
+  }
+}

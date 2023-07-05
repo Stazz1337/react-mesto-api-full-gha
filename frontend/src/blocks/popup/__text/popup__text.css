@@ -1,0 +1,26 @@
+.popup__text {
+  border: none;
+ /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0;
+  outline: none;
+
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup__text:focus {
+  box-shadow: 0 0 10px #719ECE;
+}
+
+@media (max-width:640px) {
+  .popup__text {
+  min-height: 26px;
+  min-width: 238px;
+  }
+}
+
+/* .popup__text:first-of-type {
+  margin-bottom: 30px;
+}  */

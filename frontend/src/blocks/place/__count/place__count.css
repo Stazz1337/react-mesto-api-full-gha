@@ -1,0 +1,16 @@
+.place__count {
+  width: 10px;
+  height: 13px;
+  border: none;
+  background-color: #FFFFFF;
+  transition: 3s;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

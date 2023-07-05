@@ -1,0 +1,10 @@
+.place__title-wrapper {
+  background-color: #FFFFFF;
+  display: flex;
+  min-height: 79px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0 20px 0 21px;
+}

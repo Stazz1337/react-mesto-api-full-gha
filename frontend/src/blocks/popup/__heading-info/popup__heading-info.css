@@ -1,0 +1,10 @@
+.popup__heading-info {
+  text-align: center;
+  margin: 32px 0 0;
+}
+
+@media (max-width: 640px) {
+  .popup__heading-info {
+    margin: 40px 0 28px;
+  }
+}
