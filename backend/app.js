@@ -13,7 +13,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const app = express();
 
-const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 
 mongoose
   .connect('mongodb://127.0.0.1:27017/mestodb', {
@@ -46,5 +46,5 @@ app.use(errors()); // обработчик ошибок celebrate
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log('Server started on port 3001');
+  console.log('Server started on port 3000');
 });
