@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.103.35
+IP 158.160.103.35
 
 Frontend https://stazzler.nomoredomains.work/
 
