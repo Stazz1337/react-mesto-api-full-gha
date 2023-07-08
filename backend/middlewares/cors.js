@@ -1,5 +1,9 @@
 // Массив доменов, с которых разрешены кросс-доменные запросы
-const allowedCors = ['http://localhost:3000'];
+const allowedCors = [
+  'http://localhost:3000',
+  'http://stazzler.nomoredomains.work/',
+  'https://stazzler.nomoredomains.work/',
+];
 
 module.exports = (req, res, next) => {
   const { origin } = req.headers; // Сохраняем источник запроса в переменную origin
