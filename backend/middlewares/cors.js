@@ -1,6 +1,7 @@
 // Массив доменов, с которых разрешены кросс-доменные запросы
 const allowedCors = [
   'http://localhost:3000',
+  'http://localhost:3001',
   'http://stazzler.nomoredomains.work',
   'https://stazzler.nomoredomains.work',
 ];
